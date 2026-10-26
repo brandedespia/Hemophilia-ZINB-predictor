@@ -18,8 +18,11 @@ The ZINB model is built by my final year project group
 - **Libraries**: NumPy, Pandas, Streamlit
 
 ## How to run
-.\venv\Scripts\python.exe -m streamlit run stappbypy.py
-
+**Install the required package:**
+```bash
+pip install -r requirements.txt
+streamlit run stappbypy.py
+```
 ## Model Detail
 - **Count Model**: `death ~ hiv + factor + age + offset(log(py))`
 - **Zero-inflation Model**: `death ~ hiv + age + offset(log(py))`

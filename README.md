@@ -14,6 +14,9 @@ The ZINB model is built by my final year project group
 ## Why ZINB
 - According to the result of model comparison, the ZINB model has the best performance in log-likelihood and AIC, and also second greatest performance in BIC. Plus it handle the problem of **overdispersion** and **zero-inflation** in the dataset while the best model by BIC, ZIP model, can only handle the **zero-inflation** problem.
 
+## Key Insights
+- Through removing the insignificant variables, the final ZINB model only remain statistical significant variables for both count and zero-inflation components.
+
 ## Tech Stack
 - **Language**: Python
 - **Web Framework**: Streamlit
